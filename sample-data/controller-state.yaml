@@ -1,0 +1,11 @@
+{
+  throttle:float; /// -1 for full reverse, 1 for full forward
+  steer:float; /// -1 for full left, 1 for full right
+  pitch:float; /// -1 for nose down, 1 for nose up
+  yaw:float; /// -1 for full left, 1 for full right
+  roll:float; /// -1 for roll left, 1 for roll right
+  jump:bool; /// true if you want to press the jump button
+  boost:bool; /// true if you want to press the boost button
+  handbrake:bool; /// true if you want to press the handbrake button
+  use_item:bool; /// true if you want to use a rumble item
+}
